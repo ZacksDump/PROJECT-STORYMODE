@@ -7,10 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\s_Spacey_BASE</sprite>
+    <sprite>sprites\s_SpaceyRPG_IDLE</sprite>
+    <sprite>sprites\s_SpaceyRPG_ATTACK</sprite>
     <sprite>sprites\s_Spacey_Smiling</sprite>
     <sprite>sprites\s_Tumble_BASE</sprite>
+    <sprite>sprites\s_TumbleRPG_IDLE</sprite>
     <sprite>sprites\s_Tumble_Smiling</sprite>
     <sprite>sprites\s_Former_BASE</sprite>
+    <sprite>sprites\s_FormerRPG_IDLE</sprite>
     <sprite>sprites\s_Former_Serious</sprite>
     <sprite>sprites\s_Former_Prissed</sprite>
     <sprite>sprites\s_TESTING_BLOCK</sprite>
@@ -19,6 +23,7 @@
     <sprite>sprites\s_ENEMY_pf</sprite>
     <sprite>sprites\s_maintitletext</sprite>
     <sprite>sprites\s_playgamebutton</sprite>
+    <sprite>sprites\s_FormerRPG_ATTACK</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_TESTING_BACKGROUND</background>
