@@ -23,7 +23,17 @@
     <sprite>sprites\s_ENEMY_pf</sprite>
     <sprite>sprites\s_maintitletext</sprite>
     <sprite>sprites\s_playgamebutton</sprite>
+    <sprite>sprites\s_button_BASE</sprite>
+    <sprite>sprites\s_qUiT</sprite>
+    <sprite>sprites\s_options</sprite>
+    <sprite>sprites\s_loadgame</sprite>
     <sprite>sprites\s_FormerRPG_ATTACK</sprite>
+    <sprite>sprites\s_DTALOGO</sprite>
+    <sprite>sprites\s_1TEST</sprite>
+    <sprite>sprites\s_2TEST</sprite>
+    <sprite>sprites\s_3TEST</sprite>
+    <sprite>sprites\s_LOCKEDTEST</sprite>
+    <sprite>sprites\s_LEVELBEAT</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_TESTING_BACKGROUND</background>
@@ -33,20 +43,38 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\o_Spacey</object>
+    <object>objects\o_SpaceyRPG</object>
     <object>objects\o_Tumble</object>
+    <object>objects\o_TumbleRPG</object>
     <object>objects\o_Former</object>
+    <object>objects\o_FormerRPG</object>
     <object>objects\o_TESTING_BLOCK</object>
     <object>objects\o_spawnpoint</object>
     <object>objects\o_spikes</object>
     <object>objects\o_Enemy_FLOATING</object>
     <object>objects\o_Enemy_PF</object>
     <object>objects\o_playbutton</object>
+    <object>objects\o_DTALOGO</object>
+    <object>objects\o_loadgame</object>
+    <object>objects\o_options</object>
+    <object>objects\o_QUIT</object>
+    <object>objects\o_1TEST</object>
+    <object>objects\o_2TEST</object>
+    <object>objects\o_3TEST</object>
+    <object>objects\o_LOCKEDTEST</object>
+    <object>objects\o_youwinbitchTEST</object>
+    <object>objects\o_youwinbitchTEST3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_maintitle</room>
-    <room>rooms\rm_loading_screen_test</room>
+    <room>rooms\rm_ls_allunlocked</room>
+    <room>rooms\rm_ls_2unlocked</room>
+    <room>rooms\rm_ls_1unlocked</room>
     <room>rooms\rm_TESTING_PF</room>
     <room>rooms\rm_TESTING_SPACEY</room>
+    <room>rooms\rm_level1</room>
+    <room>rooms\rm_level2</room>
+    <room>rooms\rm_level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
